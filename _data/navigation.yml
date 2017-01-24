@@ -1,0 +1,10 @@
+# Site navigation links
+
+- title: About Me
+  url: /about/
+
+- title: Blog
+  url: /blog/
+
+- title: Search
+  url: /search/
