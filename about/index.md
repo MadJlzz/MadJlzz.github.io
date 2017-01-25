@@ -5,14 +5,8 @@ excerpt: "Some informations about me."
 modified: 2017-01-24T16:11:00.000000+01:00
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+I'm a 24 years old young engineer searching his way in the deep down bottom of coding. Constantly in search of new things to learn, I spent most of my time developing video games. As a UNIX system lover, I follow **KISS** principles.
 
-## So Simple Theme is all about:
+## Some of the things that I do:
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
+* Develop video games
