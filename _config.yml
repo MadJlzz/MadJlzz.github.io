@@ -1,60 +1,38 @@
-# Site wide configuration
-
+# Site settings
 title: Code, beer and flammekueche
-locale: en_US
-description: A collection of my failures, successes and experiences.
-logo:
-search: true
-url: https://madjlzz.github.io/
-# url: http://localhost:4000
+description: 'A collection of my failures, successes and experiences.'
+url: 'https://madjlzz.github.io/'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
 
-# Jekyll configuration
+author:
+  name: 'Julien Klaer'
+  email: klaer.julien@gmail.com
+  twitter_username: MadJlzz
+  github_username:  MadJlzz
+  linkedin_username:  klaer-julien
 
-permalink:   /:categories/:title/
-markdown:    kramdown
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
 highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
 
 kramdown:
+  # use Github Flavored Markdown
   input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..2
-  enable_coderay: false
+  # do not replace newlines by <br>s
+  hard_wrap: false
 
-mathjax: true
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
-
-
-# Site owner
-owner:
-  name: Julien Klaer
-  avatar: bio-photo.jpg
-  email: klaer.julien@gmail.com
-  disqus-shortname:
-  twitter: MadJlzz
-  facebook: #username
-  github: MadJlzz
-  stackexchange: http://stackoverflow.com/users/3877016/madjlzz
-  linkedin: klaer-julien
-  instagram: #username
-  flickr: #username
-  tumblr: #username
-  pinterest: #username
-  weibo: #userid
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
