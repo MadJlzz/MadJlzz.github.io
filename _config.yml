@@ -1,7 +1,7 @@
 # Site settings
 title: Code, beer and flammekueche
 description: 'A collection of my failures, successes and experiences.'
-url: 'https://madjlzz.github.io/'
+url: 'https://madjlzz.github.io'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
