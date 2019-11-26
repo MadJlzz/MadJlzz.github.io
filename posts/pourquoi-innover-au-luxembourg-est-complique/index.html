@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
-  <head>
-	<meta name="generator" content="Hugo 0.59.1" /><meta charset="utf-8">
+  <head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge"><title>Code 👨🏻‍💻, beer 🍺 and flammekueche 🍕</title>
     
@@ -21,7 +20,7 @@
 
     <div id="preloader">
       <div id="status"></div>
-    </div><section class="hero is-fullheight is-default is-bold"><nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+    </div><nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
 
@@ -63,7 +62,7 @@
     <div id="navbar-menu" class="navbar-menu is-static">
       
       <div class="navbar-end">
-        <a href="/" class="navbar-item is-secondary">Posts</a></div>
+        <a href="/posts/" class="navbar-item is-secondary">Posts</a></div>
     </div>
 
 
@@ -112,7 +111,7 @@
   
       <div id="cloned-navbar-menu" class="navbar-menu is-static">
         <div class="navbar-end">
-          <a href="/" class="navbar-item is-secondary">Posts</a></div>
+          <a href="/posts/" class="navbar-item is-secondary">Posts</a></div>
       </div>
   
   
@@ -120,23 +119,73 @@
   
     </div>
   </nav>
-<div class="hero-body">
-        <div class="container">
-            <div class="columns is-vcentered">
-            <div class="column is-5 is-offset-1 landing-caption">
-                <h1 class="title is-1 is-bold is-spaced">Julien Klaer 👨🏻‍💻</h1><h2 class="subtitle is-5 is-muted">
-                Articles sur mes échecs, mes succès et mes expériences
-                </h2>
-            </div>
-            <div class="column is-5 is-offset-1">
-                <figure class="image"><img src="/images/me.png" 
-                     style="width:400px" alt="Myself">
-                </figure>
-            </div>
-            </div>
-        </div>
-        </div>
-    </section><footer class="footer footer-dark">
+<section class="section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title is-2 section-title">Pourquoi innover au Luxembourg est compliqué ?</h1>
+        <h5 class="subtitle is-5 is-muted"></h5>
+        <div class="divider"></div>
+        
+        <section class="section content has-text-justified">
+          
+
+<p>Avant de rentrer dans le vif du sujet, je tiens à préciser que le domaine ciblé est celui de <strong>l&rsquo;informatique</strong>.</p>
+
+<p>Mes arguments ne ciblent pas directement un des clients pour lesquels j&rsquo;ai pu travailler, mais est le fruit de ce que j&rsquo;ai pu <em>vivre, voir et même entendre</em>.</p>
+
+<h2 id="compliqué-à-cause-de-l-outillage">Compliqué à cause de l&rsquo;outillage</h2>
+
+<p><br />
+L&rsquo;outillage est clairement <strong>archaïque</strong> dans la plupart des entreprises pour lesquelles j&rsquo;ai pu travailler. Pour appuyer ce que je dis, gardons à l&rsquo;esprit que <strong>Ansible</strong> ou encore <strong>Docker</strong> ont vu le jour aux alentours de <strong>2012-2013</strong>.</p>
+
+<p>En effet, si l&rsquo;on considère les points suivants :</p>
+
+<ul>
+<li><p>les serveurs de développement / test / pré-production / production sont foncièrement <strong>différents</strong>. Cela rend les <strong>tests d&rsquo;intégration</strong> non fiables voire <strong>inutiles</strong>.</p></li>
+
+<li><p>on <strong>mutualise</strong> les applications de toutes les équipes sur les mêmes serveurs. Si un problème d&rsquo;infrastructure surgit alors ce sont <strong>toutes les applications qui sont impactées</strong>.</p></li>
+
+<li><p>on continue de déployer <strong>manuellement</strong> ou encore de <strong>différentes manières</strong> suivant l&rsquo;environnement ciblé.</p></li>
+
+<li><p>on continue de <strong>s&rsquo;enfermer</strong> avec l&rsquo;utilisation d&rsquo;outils non adaptés aux besoins réels sous prétexte qu&rsquo;ils offrent du support qu&rsquo;on n&rsquo;utilise jamais.</p></li>
+
+<li><p>les équipes ne sont pas <strong>owner de tous leurs assets</strong>. Pour des demandes telles que la récupération de logs, il faut passer par une équipe transverse qui est, de facto, plus que débordée puisqu&rsquo;elle doit répondre à toutes les équipes de développement.</p></li>
+
+<li><p>on explique au développeur que les <strong>micro-services</strong> c&rsquo;est le bien, qu&rsquo;il faut migrer notre application <strong>monolithique</strong> vers ce nouveau paradigme mais on oublie que la gestion devient encore plus complexe voir ingérable surtout si l&rsquo;on ne dispose pas <strong>d&rsquo;outils</strong> pour <strong>tracer</strong> les requêtes, <strong>monitorer</strong> ou que l&rsquo;on <strong>partage encore les mêmes BDDs entre plusieurs micro-services.</strong></p></li>
+</ul>
+
+<p>il devient alors très compliqué d&rsquo;innover et de développer rapidement des applications de qualité.</p>
+
+<p>Mais l&rsquo;outillage n&rsquo;est pas la seule barrière à l&rsquo;innovation.</p>
+
+<h2 id="compliqué-à-cause-de-l-organisation">Compliqué à cause de l&rsquo;organisation</h2>
+
+<p><br />
+On parle très souvent d&rsquo;agilité et je félicite toutes les sociétés qui investissent du temps et de l&rsquo;argent dans ce domaine. Être agile permet de livrer plus <strong>rapidement</strong>, avec une plus <strong>grande qualité</strong> et d&rsquo;offrir à nos clients des fonctionnalités à haute <strong>valeur ajoutée</strong>.</p>
+
+<p>Cependant dès qu&rsquo;une <strong>dépendance</strong> entre dans la chaîne, l&rsquo;histoire n&rsquo;est plus la même. En effet, si l&rsquo;on doit attendre en moyenne 4 jours pour obtenir un certificat TLS du fait que les équipes ne soient pas <strong>autonomes</strong>, alors être agile perd de son sens.</p>
+
+<p>Des solutions, comme la philosophie <strong>DevOps</strong> par exemple, existent pour nous donner les moyens d&rsquo;atteindre ces bienfaits cités plus haut. <strong>Sensibiliser</strong> les équipes de développement à la <strong>gestion</strong> de leurs <strong>assets</strong> en production, <strong>automatiser</strong> les déploiements, <strong>monitorer</strong> l&rsquo;état de ces assets, <strong>rendre les équipes autonomes</strong> sont autant de points à considérer pour atteindre ces objectifs.</p>
+
+<h2 id="et-comment-fait-on-pour-atteindre-ce-modèle">Et comment fait-on pour atteindre ce modèle ?</h2>
+
+<p><br />
+Je suis convaincu que cette stratégie doit provenir <strong>d&rsquo;une décision de la hiérarchie</strong>. Malheureusement, il y aura toujours de la résistance au changement. Le plus important selon moi reste que la majorité y voit un réel intérêt surtout en termes de <strong>delivery</strong> mais aussi en termes de <strong>confort quotidien au travail</strong>.</p>
+
+<p>Employons nous à changer les mentalités afin de débloquer le plein potentiel du Luxembourg. Innovons et faisons de notre travail un lieu où chacun sera capable d&rsquo;ajouter sa brique à l&rsquo;édifice.</p>
+
+        </section>
+      </div>
+    </div>
+  </div>  
+  <div class="container">
+    <div class="columns">
+      <div class="column has-text-right is-family-monospace is-centered-tablet-portrait">
+        Dernière modification:&nbsp;24 November 2019</div>
+    </div>
+  </div></section>
+<footer class="footer footer-dark">
   <div class="container">
     <div class="columns">
       <div class="column">
@@ -251,7 +300,97 @@
                 </tr>
               </table>
             </div>
-          </a></ul>
+          </a>
+      <li class="no-children">
+          <a href="/tags/agility">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>agility</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/dev">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>dev</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/devops">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>devops</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/luxembourg">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>luxembourg</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li>
+      <li class="no-children">
+          <a href="/tags/ops">
+            <div class="columns">
+              
+              <table width="100%">  
+                  <tr>
+                    <td class=""><span class="icon"><i class="fa fa-cube"></i></span>ops</td>
+                    <td class="has-text-right" >
+                        <div class="tag-number">1</div>
+                      
+                    </td>
+                    
+                  </tr>
+              </table>
+              
+            </div>
+          </a>
+      </li></ul>
   </div>
 </div>
 
