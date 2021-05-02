@@ -1,25 +1,31 @@
-baseURL = "https://julienklaer.dev"
+baseURL = "https://www.julienklaer.dev"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Julien Klaer"
 theme = "hermit"
+
 # enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
 # hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
 rssLimit = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+copyright = "This work is licensed under a MIT License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-150515783-1"
 # disqusShortname = "yourdiscussshortname"
+
+staticDir = ["static"]
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 [author]
   name = "Julien Klaer"
 
 [blackfriday]
-  # hrefTargetBlank = true
-  # noreferrerLinks = true
-  # nofollowLinks = true
+  hrefTargetBlank = true
+  noreferrerLinks = true
+  nofollowLinks = true
 
 [taxonomies]
   tag = "tags"
@@ -36,9 +42,9 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "A minimal and fast theme for Hugo."
-  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-  # bgImg = ""  # Homepage background-image URL
+  homeSubtitle = "Code 👨🏻‍💻, beer 🍺 and flammekueche 🍕 Just fell in love with Golang ❤️"
+  footerCopyright = ' &#183; <a href="https://tldrlegal.com/license/mit-license" target="_blank" rel="noopener">MIT License</a>'
+  # bgImg = "/img/placeholder.png"  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = "https://github.com/username/repository/commit/"
@@ -55,7 +61,6 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
-
   [[params.social]]
     name = "github"
     url = "https://github.com/MadJlzz"
@@ -71,6 +76,6 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 [menu]
 
   [[menu.main]]
-    name = "Posts"
+    name = "Blog posts"
     url = "posts/"
     weight = 10
