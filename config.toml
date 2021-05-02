@@ -1,7 +1,7 @@
-baseURL = "https://example.com"
+baseURL = "https://julienklaer.dev"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Hugo Hermit"
+title = "Julien Klaer"
 theme = "hermit"
 # enableGitInfo = true
 pygmentsCodefences  = true
@@ -14,7 +14,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 # disqusShortname = "yourdiscussshortname"
 
 [author]
-  name = "John Doe"
+  name = "Julien Klaer"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -55,17 +55,18 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/"
-
-  [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/"
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/"
+    url = "https://github.com/MadJlzz"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/MadJlzz"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/klaer-julien/"
 
 [menu]
 
@@ -73,8 +74,3 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "Posts"
     url = "posts/"
     weight = 10
-
-  [[menu.main]]
-    name = "About"
-    url = "about-hugo/"
-    weight = 20

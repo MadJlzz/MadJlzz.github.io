@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>untagged on Julien Klaer</title>
+    <link>https://julienklaer.dev/tags/untagged/</link>
+    <description>Recent content in untagged on Julien Klaer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 02 May 2021 20:09:19 +0200</lastBuildDate><atom:link href="https://julienklaer.dev/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://julienklaer.dev/posts/my-first-post/</link>
+      <pubDate>Sun, 02 May 2021 20:09:19 +0200</pubDate>
+      
+      <guid>https://julienklaer.dev/posts/my-first-post/</guid>
+      <description>Hey there!</description>
+    </item>
+    
+  </channel>
+</rss>
